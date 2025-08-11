@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           appBarTheme: AppBarTheme(),
           primarySwatch: Colors.purple,
-          accentColor: Colors.deepOrange,
         ),
         initialRoute: '/',
         routes: {

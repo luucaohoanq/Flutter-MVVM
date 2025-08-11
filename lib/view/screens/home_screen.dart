@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Container(
                     margin: EdgeInsets.symmetric(horizontal: 20.0),
                     decoration: BoxDecoration(
-                      color: Theme.of(context).accentColor.withAlpha(50),
+                      color: Theme.of(context).colorScheme.secondary.withAlpha(50),
                       borderRadius: BorderRadius.circular(30.0),
                     ),
                     child: TextField(
